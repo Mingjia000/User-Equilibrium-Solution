@@ -18,7 +18,7 @@ graph = [
     ("14", ["15", "17"]),
     ("15", []),
     ("16", ["17"]),
-    ("17", ["15"])
+    ("17", [])
 ]
 
 # Capacity of each link (Conjugated to Graph with order)
