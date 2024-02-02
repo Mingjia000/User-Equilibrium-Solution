@@ -18,7 +18,7 @@ graph = [
     ("14", ["15", "17"]),
     ("15", []),
     ("16", ["17"]),
-    ("17", [])
+    ("17", ["15"])
 ]
 
 # Capacity of each link (Conjugated to Graph with order)
@@ -41,13 +41,13 @@ free_time = [
 ]
 
 # Origin-destination pairs
-origins = ["5", "6"]
-destinations = ["15", "17"]
+origins = ["5", "6","10", "16"]
+destinations = ["15", "17","15", "17"]
 # Generated ordered OD pairs: 
 # first ("5", "15"), second ("5", "17"), third ("6", "15")...
 
 
 # Demand between each OD pair (Conjugated to the Cartesian 
 # product of Origins and destinations with order)
-demand = [6000, 6750, 7500, 5250]
+demand = [6000, 6750, 7500, 5250,2000,2000,2000,2000]
 
